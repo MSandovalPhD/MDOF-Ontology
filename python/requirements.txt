@@ -1,0 +1,4 @@
+owlready2>=0.45
+numpy>=1.24.0
+pyusb>=1.2.1
+python-dotenv>=1.0.0 

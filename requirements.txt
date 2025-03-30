@@ -1,0 +1,3 @@
+PyQt6>=6.4.0
+qtawesome>=1.2.2
+darkdetect>=0.7.1 

@@ -1,0 +1,2081 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/mso_2/ontologies/2025/0/VR_Device_Ontology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/mso_2/ontologies/2025/0/VR_Device_Ontology">
+    <Prefix name="" IRI="http://www.semanticweb.org/mso_2/ontologies/2025/0/VR_Device_Ontology/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="VR_Device_Ontology" IRI="http://www.semanticweb.org/mso_2/ontologies/2025/0/VR_Device_Ontology#"/>
+    <Declaration>
+        <Class IRI="#Action"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AutoCalibrated"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Button"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CalibratedJoystick"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Calibration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CompleteCalibration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Controller"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Custom_Device"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DeviceType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DoubleTap"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Drag"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Drop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eye_Tracking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FailedCalibration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gamepad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gamepad_Button"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gaze"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GestureInteraction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GestureRecognition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grab"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grip_Sensor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HandPoseDetection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hand_Tracking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Haptic_Feedback"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hold"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IncompleteCalibration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InputMethod"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Joystick"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Joystick_Button"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Jump"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Manufacturer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Move"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MovementInteraction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PhysicalInteraction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pinch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Point"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Press"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pressure_Sensor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Push"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RequiresUserCalibration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rotate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rotate360"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RotateObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Scroll"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Select"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sensor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Swipe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SystemCondition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tap"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Throw"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Thumbstick"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Touchpad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Touchpad_Button"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Trigger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VR_Controller"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VR_Glove"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VR_Interaction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zoom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VR_Headset"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Base_Station"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VR_Accessory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VR_Cable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VR_Battery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Positional_Tracking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IMU_Sensor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Finger_Tracking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Heart_Rate_Monitor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Room_Scale_Tracking"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#trackingRange"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#refreshRate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#fieldOfView"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#activatedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#calibratesDevice"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#customMapsTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCalibrationStatus"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasGamepadInputElement"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasInputElement"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasManufacturer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasVRInputElement"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isCalibrationStatusOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isInputElementOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isRequiredCalibrationFor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isRequiredSensorFor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#mapsTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requiresCalibration"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requiresSensor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#calibrationValue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#foundingYear"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hapticIntensity"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#headquarters"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#inputSensitivity"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isPressureSensitive"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#latency"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#requiresCalibrationValue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#supportsHandTracking"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#supportsHapticFeedback"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#trackingAccuracy"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#website"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Meta"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Meta_Quest_2_Controller"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Meta_Quest_3_Controller"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Meta_Quest_3_S_Controller"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Meta_Quest_Pro_Controller"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Valve"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HTC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pico"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Varjo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#releaseDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#generation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Teleportation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Menu_Navigation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Voice_Command"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Spatial_Audio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Multi_User_Interaction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Combined_Interaction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Room_Scale_Calibration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Seated_Calibration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Standing_Calibration"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#calibrationFrequency"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#minPlayArea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Isotonic_Input_Device"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Isometric_Input_Device"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hybrid_Input_Device"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Position_Control"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rate_Control"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#vendorID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#productID"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Isotonic_Position_Control"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Isotonic_Rate_Control"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Isometric_Position_Control"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Isometric_Rate_Control"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hybrid_Manipulation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mapping_Matrix"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Device_Layer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Controllers_Manager"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#USB_Device"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wired_Controller"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wireless_Controller"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#mapsToFunction"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDeviceLayer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#managesController"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasUSBConnection"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#pollingRate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#inputLatency"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#connectionType"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isDetected"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#lastUpdateTime"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#inputBufferSize"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Device_State"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Error_State"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#batteryLevel"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#connectionStrength"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#errorCode"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#errorMessage"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#deviceStatus"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#lastErrorTime"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#recoveryAttempts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Input_Configuration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mapping_Configuration"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#deadzone"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#sensitivity"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#invertAxis"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#mappingPriority"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#mappingEnabled"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#customMapping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Performance_Metrics"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#frameRate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#renderLatency"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#inputProcessingTime"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#memoryUsage"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#cpuUsage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#User_Profile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Accessibility_Options"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#userID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#preferredHand"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#motionSensitivity"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#comfortSettings"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#accessibilityLevel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Device_Synchronization"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#syncLatency"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#syncStatus"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#syncPriority"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#syncMode"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#synchronizesWith"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Button"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#mapsTo"/>
+            <Class IRI="#Hold"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Button"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#mapsTo"/>
+            <Class IRI="#Press"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Button"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#mapsTo"/>
+            <Class IRI="#Push"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#CalibratedJoystick"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Joystick"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#requiresCalibration"/>
+                <Class IRI="#CompleteCalibration"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Gamepad_Button"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#mapsTo"/>
+            <Class IRI="#Hold"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Gamepad_Button"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#mapsTo"/>
+            <Class IRI="#Press"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Grip_Sensor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#mapsTo"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Grab"/>
+                <Class IRI="#Rotate"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Joystick"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#mapsTo"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#Move"/>
+                <Class IRI="#Rotate"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Joystick_Button"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#mapsTo"/>
+            <Class IRI="#Hold"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Joystick_Button"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#mapsTo"/>
+            <Class IRI="#Press"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Joystick_Button"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#mapsTo"/>
+            <Class IRI="#Push"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#AutoCalibrated"/>
+        <Class IRI="#Calibration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Button"/>
+        <Class IRI="#InputMethod"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CalibratedJoystick"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Joystick"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#requiresCalibration"/>
+                <Class IRI="#CompleteCalibration"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Calibration"/>
+        <Class IRI="#SystemCondition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CompleteCalibration"/>
+        <Class IRI="#Calibration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Controller"/>
+        <Class IRI="#DeviceType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Custom_Device"/>
+        <Class IRI="#DeviceType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DoubleTap"/>
+        <Class IRI="#GestureInteraction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Drag"/>
+        <Class IRI="#PhysicalInteraction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Drop"/>
+        <Class IRI="#PhysicalInteraction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eye_Tracking"/>
+        <Class IRI="#Sensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FailedCalibration"/>
+        <Class IRI="#Calibration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gamepad"/>
+        <Class IRI="#Controller"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gamepad"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasInputElement"/>
+            <Class IRI="#Gamepad_Button"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gamepad"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasInputElement"/>
+            <Class IRI="#Haptic_Feedback"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gamepad"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasInputElement"/>
+            <Class IRI="#Joystick"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gamepad"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasInputElement"/>
+            <Class IRI="#Thumbstick"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gamepad"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasInputElement"/>
+            <Class IRI="#Trigger"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gamepad_Button"/>
+        <Class IRI="#Button"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gaze"/>
+        <Class IRI="#GestureInteraction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GestureInteraction"/>
+        <Class IRI="#VR_Interaction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GestureRecognition"/>
+        <Class IRI="#GestureInteraction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grab"/>
+        <Class IRI="#PhysicalInteraction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grip_Sensor"/>
+        <Class IRI="#Sensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HandPoseDetection"/>
+        <Class IRI="#GestureInteraction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hand_Tracking"/>
+        <Class IRI="#Sensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Haptic_Feedback"/>
+        <Class IRI="#Sensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hold"/>
+        <Class IRI="#PhysicalInteraction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IncompleteCalibration"/>
+        <Class IRI="#Calibration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InputMethod"/>
+        <Class IRI="#DeviceType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Joystick"/>
+        <Class IRI="#InputMethod"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Joystick_Button"/>
+        <Class IRI="#Joystick"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jump"/>
+        <Class IRI="#MovementInteraction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Move"/>
+        <Class IRI="#MovementInteraction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MovementInteraction"/>
+        <Class IRI="#VR_Interaction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PhysicalInteraction"/>
+        <Class IRI="#VR_Interaction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pinch"/>
+        <Class IRI="#GestureInteraction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Point"/>
+        <Class IRI="#GestureInteraction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Press"/>
+        <Class IRI="#PhysicalInteraction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pressure_Sensor"/>
+        <Class IRI="#Sensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Push"/>
+        <Class IRI="#PhysicalInteraction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RequiresUserCalibration"/>
+        <Class IRI="#Calibration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rotate"/>
+        <Class IRI="#PhysicalInteraction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rotate360"/>
+        <Class IRI="#MovementInteraction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RotateObject"/>
+        <Class IRI="#PhysicalInteraction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Scroll"/>
+        <Class IRI="#MovementInteraction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Select"/>
+        <Class IRI="#MovementInteraction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sensor"/>
+        <Class IRI="#DeviceType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Swipe"/>
+        <Class IRI="#GestureInteraction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tap"/>
+        <Class IRI="#GestureInteraction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Throw"/>
+        <Class IRI="#PhysicalInteraction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Thumbstick"/>
+        <Class IRI="#InputMethod"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Touchpad"/>
+        <Class IRI="#InputMethod"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Touchpad_Button"/>
+        <Class IRI="#Touchpad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trigger"/>
+        <Class IRI="#InputMethod"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VR_Controller"/>
+        <Class IRI="#Controller"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VR_Controller"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasInputElement"/>
+            <Class IRI="#Button"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VR_Controller"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasInputElement"/>
+            <Class IRI="#Joystick"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VR_Controller"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasInputElement"/>
+            <Class IRI="#Touchpad"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VR_Controller"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasInputElement"/>
+            <Class IRI="#Trigger"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VR_Glove"/>
+        <Class IRI="#InputMethod"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VR_Glove"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasInputElement"/>
+            <Class IRI="#Grip_Sensor"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VR_Glove"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasInputElement"/>
+            <Class IRI="#Hand_Tracking"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VR_Glove"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasInputElement"/>
+            <Class IRI="#Haptic_Feedback"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VR_Glove"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasInputElement"/>
+            <Class IRI="#Pressure_Sensor"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VR_Interaction"/>
+        <Class IRI="#Action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zoom"/>
+        <Class IRI="#MovementInteraction"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Gamepad_Button"/>
+        <Class IRI="#Touchpad_Button"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Manufacturer"/>
+        <NamedIndividual IRI="#Meta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VR_Controller"/>
+        <NamedIndividual IRI="#Meta_Quest_2_Controller"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VR_Controller"/>
+        <NamedIndividual IRI="#Meta_Quest_3_Controller"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VR_Controller"/>
+        <NamedIndividual IRI="#Meta_Quest_3_S_Controller"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VR_Controller"/>
+        <NamedIndividual IRI="#Meta_Quest_Pro_Controller"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Manufacturer"/>
+        <NamedIndividual IRI="#Valve"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Manufacturer"/>
+        <NamedIndividual IRI="#HTC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Manufacturer"/>
+        <NamedIndividual IRI="#Pico"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Manufacturer"/>
+        <NamedIndividual IRI="#Varjo"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasManufacturer"/>
+        <NamedIndividual IRI="#Meta_Quest_2_Controller"/>
+        <NamedIndividual IRI="#Meta"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasManufacturer"/>
+        <NamedIndividual IRI="#Meta_Quest_3_Controller"/>
+        <NamedIndividual IRI="#Meta"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasManufacturer"/>
+        <NamedIndividual IRI="#Meta_Quest_3_S_Controller"/>
+        <NamedIndividual IRI="#Meta"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasManufacturer"/>
+        <NamedIndividual IRI="#Meta_Quest_Pro_Controller"/>
+        <NamedIndividual IRI="#Meta"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#foundingYear"/>
+        <NamedIndividual IRI="#Meta"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2004</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#headquarters"/>
+        <NamedIndividual IRI="#Meta"/>
+        <Literal>Menlo Park, California</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#website"/>
+        <NamedIndividual IRI="#Meta"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://about.meta.com/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#supportsHandTracking"/>
+        <NamedIndividual IRI="#Meta_Quest_2_Controller"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#supportsHapticFeedback"/>
+        <NamedIndividual IRI="#Meta_Quest_2_Controller"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#supportsHandTracking"/>
+        <NamedIndividual IRI="#Meta_Quest_3_Controller"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#supportsHapticFeedback"/>
+        <NamedIndividual IRI="#Meta_Quest_3_Controller"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#supportsHandTracking"/>
+        <NamedIndividual IRI="#Meta_Quest_3_S_Controller"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#supportsHapticFeedback"/>
+        <NamedIndividual IRI="#Meta_Quest_3_S_Controller"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#supportsHandTracking"/>
+        <NamedIndividual IRI="#Meta_Quest_Pro_Controller"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#supportsHapticFeedback"/>
+        <NamedIndividual IRI="#Meta_Quest_Pro_Controller"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasGamepadInputElement"/>
+        <ObjectProperty IRI="#hasInputElement"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasVRInputElement"/>
+        <ObjectProperty IRI="#hasInputElement"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasCalibrationStatus"/>
+        <ObjectProperty IRI="#isCalibrationStatusOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasInputElement"/>
+        <ObjectProperty IRI="#isInputElementOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isRequiredCalibrationFor"/>
+        <ObjectProperty IRI="#requiresCalibration"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isRequiredSensorFor"/>
+        <ObjectProperty IRI="#requiresSensor"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasCalibrationStatus"/>
+    </FunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#activatedBy"/>
+        <Class IRI="#VR_Interaction"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#calibratesDevice"/>
+        <Class IRI="#Calibration"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#customMapsTo"/>
+        <Class IRI="#VR_Interaction"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCalibrationStatus"/>
+        <Class IRI="#DeviceType"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasInputElement"/>
+        <Class IRI="#InputMethod"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasManufacturer"/>
+        <Class IRI="#DeviceType"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isCalibrationStatusOf"/>
+        <Class IRI="#Calibration"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isInputElementOf"/>
+        <Class IRI="#InputMethod"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRequiredCalibrationFor"/>
+        <Class IRI="#DeviceType"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRequiredSensorFor"/>
+        <Class IRI="#VR_Interaction"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#mapsTo"/>
+        <Class IRI="#VR_Interaction"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#requiresCalibration"/>
+        <Class IRI="#DeviceType"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#requiresSensor"/>
+        <Class IRI="#VR_Interaction"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#activatedBy"/>
+        <Class IRI="#Controller"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#calibratesDevice"/>
+        <Class IRI="#DeviceType"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#customMapsTo"/>
+        <Class IRI="#Custom_Device"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCalibrationStatus"/>
+        <Class IRI="#Calibration"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasInputElement"/>
+        <Class IRI="#InputMethod"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasManufacturer"/>
+        <Class IRI="#DeviceType"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isCalibrationStatusOf"/>
+        <Class IRI="#DeviceType"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isInputElementOf"/>
+        <Class IRI="#DeviceType"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRequiredCalibrationFor"/>
+        <Class IRI="#DeviceType"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRequiredSensorFor"/>
+        <Class IRI="#VR_Interaction"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#mapsTo"/>
+        <Class IRI="#InputMethod"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#requiresCalibration"/>
+        <Class IRI="#Calibration"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#requiresSensor"/>
+        <Class IRI="#VR_Interaction"/>
+    </ObjectPropertyRange>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#isPressureSensitive"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#requiresCalibrationValue"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#supportsHandTracking"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#supportsHapticFeedback"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#calibrationValue"/>
+        <Class IRI="#DeviceType"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hapticIntensity"/>
+        <Class IRI="#VR_Controller"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#inputSensitivity"/>
+        <Class IRI="#InputMethod"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isPressureSensitive"/>
+        <Class IRI="#DeviceType"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#latency"/>
+        <Class IRI="#DeviceType"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#requiresCalibrationValue"/>
+        <Class IRI="#DeviceType"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#supportsHandTracking"/>
+        <Class IRI="#DeviceType"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#supportsHapticFeedback"/>
+        <Class IRI="#DeviceType"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#trackingAccuracy"/>
+        <Class IRI="#Sensor"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#calibrationValue"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#foundingYear"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hapticIntensity"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#headquarters"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#inputSensitivity"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isPressureSensitive"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#latency"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#requiresCalibrationValue"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#supportsHandTracking"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#supportsHapticFeedback"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#trackingAccuracy"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#website"/>
+        <Datatype abbreviatedIRI="xsd:anyURI"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Meta_Quest_3_S_Controller</IRI>
+        <Literal>A specialised version of the Meta Quest 3 controller, supporting hand tracking and haptic feedback.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#calibratesDevice</IRI>
+        <Literal>This relationship would link a calibration condition to a specific device. For example, CompleteCalibration calibratesDevice Gamepad.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasInputElement</IRI>
+        <Literal>Connects a device to its input elements like buttons, joysticks, etc. For instance, Gamepad hasInputElement Button.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasManufacturer</IRI>
+        <Literal>Associates a device with its manufacturer. Example: VR_Glove hasManufacturer HTC.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#mapsTo</IRI>
+        <Literal>Maps an action to a specific device or input element. Example: Jump mapsTo Button_01.</Literal>
+    </AnnotationAssertion>
+    <SubClassOf>
+        <Class IRI="#VR_Headset"/>
+        <Class IRI="#DeviceType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Base_Station"/>
+        <Class IRI="#DeviceType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VR_Accessory"/>
+        <Class IRI="#DeviceType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VR_Cable"/>
+        <Class IRI="#VR_Accessory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VR_Battery"/>
+        <Class IRI="#VR_Accessory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Positional_Tracking"/>
+        <Class IRI="#Sensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IMU_Sensor"/>
+        <Class IRI="#Sensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Finger_Tracking"/>
+        <Class IRI="#Sensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Heart_Rate_Monitor"/>
+        <Class IRI="#Sensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Room_Scale_Tracking"/>
+        <Class IRI="#Sensor"/>
+    </SubClassOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#trackingRange"/>
+        <Class IRI="#Positional_Tracking"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#refreshRate"/>
+        <Class IRI="#VR_Headset"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#fieldOfView"/>
+        <Class IRI="#VR_Headset"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#trackingRange"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#refreshRate"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#fieldOfView"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#releaseDate"/>
+        <Class IRI="#DeviceType"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#generation"/>
+        <Class IRI="#DeviceType"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#releaseDate"/>
+        <Datatype abbreviatedIRI="xsd:date"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#generation"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <SubClassOf>
+        <Class IRI="#Teleportation"/>
+        <Class IRI="#MovementInteraction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Menu_Navigation"/>
+        <Class IRI="#VR_Interaction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Voice_Command"/>
+        <Class IRI="#VR_Interaction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Spatial_Audio"/>
+        <Class IRI="#VR_Interaction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Multi_User_Interaction"/>
+        <Class IRI="#VR_Interaction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Combined_Interaction"/>
+        <Class IRI="#VR_Interaction"/>
+    </SubClassOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#combinesInteractions"/>
+        <Class IRI="#Combined_Interaction"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#combinesInteractions"/>
+        <Class IRI="#VR_Interaction"/>
+    </ObjectPropertyRange>
+    <SubClassOf>
+        <Class IRI="#Room_Scale_Calibration"/>
+        <Class IRI="#Calibration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seated_Calibration"/>
+        <Class IRI="#Calibration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standing_Calibration"/>
+        <Class IRI="#Calibration"/>
+    </SubClassOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#calibrationFrequency"/>
+        <Class IRI="#Calibration"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#minPlayArea"/>
+        <Class IRI="#Room_Scale_Calibration"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#calibrationFrequency"/>
+        <Datatype abbreviatedIRI="xsd:duration"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#minPlayArea"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <SubClassOf>
+        <Class IRI="#Isotonic_Input_Device"/>
+        <Class IRI="#InputMethod"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Isometric_Input_Device"/>
+        <Class IRI="#InputMethod"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hybrid_Input_Device"/>
+        <Class IRI="#InputMethod"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Position_Control"/>
+        <Class IRI="#InputMethod"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rate_Control"/>
+        <Class IRI="#InputMethod"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Isotonic_Input_Device"/>
+        <Class IRI="#Isometric_Input_Device"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Isotonic_Input_Device"/>
+        <Class IRI="#Hybrid_Input_Device"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Isometric_Input_Device"/>
+        <Class IRI="#Hybrid_Input_Device"/>
+    </DisjointClasses>
+    <DataPropertyDomain>
+        <DataProperty IRI="#vendorID"/>
+        <Class IRI="#InputMethod"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#productID"/>
+        <Class IRI="#InputMethod"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#inputSensitivity"/>
+        <Class IRI="#Hybrid_Input_Device"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#vendorID"/>
+        <Datatype abbreviatedIRI="xsd:hexBinary"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#productID"/>
+        <Datatype abbreviatedIRI="xsd:hexBinary"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#inputSensitivity"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <SubClassOf>
+        <Class IRI="#Isotonic_Position_Control"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Isotonic_Input_Device"/>
+            <Class IRI="#Position_Control"/>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Isotonic_Rate_Control"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Isotonic_Input_Device"/>
+            <Class IRI="#Rate_Control"/>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Isometric_Position_Control"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Isometric_Input_Device"/>
+            <Class IRI="#Position_Control"/>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Isometric_Rate_Control"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Isometric_Input_Device"/>
+            <Class IRI="#Rate_Control"/>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hybrid_Manipulation"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Hybrid_Input_Device"/>
+            <ObjectUnionOf>
+                <Class IRI="#Position_Control"/>
+                <Class IRI="#Rate_Control"/>
+            </ObjectUnionOf>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <Declaration>
+        <NamedIndividual IRI="#Oculus_Touch_Controller"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SpaceNavigator"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wing_Input_Device"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="#Isotonic_Position_Control"/>
+        <NamedIndividual IRI="#Oculus_Touch_Controller"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Isotonic_Rate_Control"/>
+        <NamedIndividual IRI="#SpaceNavigator"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hybrid_Manipulation"/>
+        <NamedIndividual IRI="#Wing_Input_Device"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#vendorID"/>
+        <NamedIndividual IRI="#Oculus_Touch_Controller"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#hexBinary">2833</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#productID"/>
+        <NamedIndividual IRI="#Oculus_Touch_Controller"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#hexBinary">0001</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#inputSensitivity"/>
+        <NamedIndividual IRI="#Wing_Input_Device"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">0.85</Literal>
+    </DataPropertyAssertion>
+    <SubClassOf>
+        <Class IRI="#Mapping_Matrix"/>
+        <Class IRI="#SystemCondition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Device_Layer"/>
+        <Class IRI="#SystemCondition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Controllers_Manager"/>
+        <Class IRI="#SystemCondition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#USB_Device"/>
+        <Class IRI="#DeviceType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wired_Controller"/>
+        <Class IRI="#Controller"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wireless_Controller"/>
+        <Class IRI="#Controller"/>
+    </SubClassOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#mapsToFunction"/>
+        <Class IRI="#Mapping_Matrix"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#mapsToFunction"/>
+        <Class IRI="#VR_Interaction"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDeviceLayer"/>
+        <Class IRI="#DeviceType"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasDeviceLayer"/>
+        <Class IRI="#Device_Layer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#managesController"/>
+        <Class IRI="#Controllers_Manager"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#managesController"/>
+        <Class IRI="#Controller"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasUSBConnection"/>
+        <Class IRI="#USB_Device"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasUSBConnection"/>
+        <Class IRI="#Device_Layer"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#pollingRate"/>
+        <Class IRI="#Device_Layer"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#inputLatency"/>
+        <Class IRI="#Device_Layer"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#connectionType"/>
+        <Class IRI="#Controller"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isDetected"/>
+        <Class IRI="#DeviceType"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#lastUpdateTime"/>
+        <Class IRI="#Device_Layer"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#inputBufferSize"/>
+        <Class IRI="#Device_Layer"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#pollingRate"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#inputLatency"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#connectionType"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isDetected"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#lastUpdateTime"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#inputBufferSize"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <Declaration>
+        <NamedIndividual IRI="#Default_Device_Layer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Default_Controllers_Manager"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Default_Mapping_Matrix"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="#Device_Layer"/>
+        <NamedIndividual IRI="#Default_Device_Layer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Controllers_Manager"/>
+        <NamedIndividual IRI="#Default_Controllers_Manager"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mapping_Matrix"/>
+        <NamedIndividual IRI="#Default_Mapping_Matrix"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#pollingRate"/>
+        <NamedIndividual IRI="#Default_Device_Layer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#inputLatency"/>
+        <NamedIndividual IRI="#Default_Device_Layer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">0.016</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#inputBufferSize"/>
+        <NamedIndividual IRI="#Default_Device_Layer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">64</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDeviceLayer"/>
+        <NamedIndividual IRI="#Oculus_Touch_Controller"/>
+        <NamedIndividual IRI="#Default_Device_Layer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#managesController"/>
+        <NamedIndividual IRI="#Default_Controllers_Manager"/>
+        <NamedIndividual IRI="#Oculus_Touch_Controller"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#mapsToFunction"/>
+        <NamedIndividual IRI="#Default_Mapping_Matrix"/>
+        <NamedIndividual IRI="#Grab"/>
+    </ObjectPropertyAssertion>
+    <SubClassOf>
+        <Class IRI="#Device_State"/>
+        <Class IRI="#SystemCondition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Error_State"/>
+        <Class IRI="#SystemCondition"/>
+    </SubClassOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#batteryLevel"/>
+        <Class IRI="#Wireless_Controller"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#connectionStrength"/>
+        <Class IRI="#Wireless_Controller"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#errorCode"/>
+        <Class IRI="#Error_State"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#errorMessage"/>
+        <Class IRI="#Error_State"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#deviceStatus"/>
+        <Class IRI="#Device_State"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#lastErrorTime"/>
+        <Class IRI="#Error_State"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#recoveryAttempts"/>
+        <Class IRI="#Error_State"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#batteryLevel"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#connectionStrength"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#errorCode"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#errorMessage"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#deviceStatus"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#lastErrorTime"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#recoveryAttempts"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <SubClassOf>
+        <Class IRI="#Input_Configuration"/>
+        <Class IRI="#SystemCondition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mapping_Configuration"/>
+        <Class IRI="#SystemCondition"/>
+    </SubClassOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#deadzone"/>
+        <Class IRI="#Input_Configuration"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#sensitivity"/>
+        <Class IRI="#Input_Configuration"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#invertAxis"/>
+        <Class IRI="#Input_Configuration"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#mappingPriority"/>
+        <Class IRI="#Mapping_Configuration"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#mappingEnabled"/>
+        <Class IRI="#Mapping_Configuration"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#customMapping"/>
+        <Class IRI="#Mapping_Configuration"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#deadzone"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#sensitivity"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#invertAxis"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#mappingPriority"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#mappingEnabled"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#customMapping"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <Declaration>
+        <NamedIndividual IRI="#Default_Input_Config"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Default_Mapping_Config"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Controller_Error_State"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="#Input_Configuration"/>
+        <NamedIndividual IRI="#Default_Input_Config"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mapping_Configuration"/>
+        <NamedIndividual IRI="#Default_Mapping_Config"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Error_State"/>
+        <NamedIndividual IRI="#Controller_Error_State"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deadzone"/>
+        <NamedIndividual IRI="#Default_Input_Config"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">0.1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sensitivity"/>
+        <NamedIndividual IRI="#Default_Input_Config"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">1.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#invertAxis"/>
+        <NamedIndividual IRI="#Default_Input_Config"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mappingPriority"/>
+        <NamedIndividual IRI="#Default_Mapping_Config"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mappingEnabled"/>
+        <NamedIndividual IRI="#Default_Mapping_Config"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#errorCode"/>
+        <NamedIndividual IRI="#Controller_Error_State"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1001</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#errorMessage"/>
+        <NamedIndividual IRI="#Controller_Error_State"/>
+        <Literal>Controller connection lost</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#recoveryAttempts"/>
+        <NamedIndividual IRI="#Controller_Error_State"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <SubClassOf>
+        <Class IRI="#Performance_Metrics"/>
+        <Class IRI="#SystemCondition"/>
+    </SubClassOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#frameRate"/>
+        <Class IRI="#Performance_Metrics"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#renderLatency"/>
+        <Class IRI="#Performance_Metrics"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#inputProcessingTime"/>
+        <Class IRI="#Performance_Metrics"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#memoryUsage"/>
+        <Class IRI="#Performance_Metrics"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#cpuUsage"/>
+        <Class IRI="#Performance_Metrics"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#frameRate"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#renderLatency"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#inputProcessingTime"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#memoryUsage"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#cpuUsage"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <SubClassOf>
+        <Class IRI="#User_Profile"/>
+        <Class IRI="#SystemCondition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Accessibility_Options"/>
+        <Class IRI="#SystemCondition"/>
+    </SubClassOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#userID"/>
+        <Class IRI="#User_Profile"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#preferredHand"/>
+        <Class IRI="#User_Profile"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#motionSensitivity"/>
+        <Class IRI="#User_Profile"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#comfortSettings"/>
+        <Class IRI="#User_Profile"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#accessibilityLevel"/>
+        <Class IRI="#Accessibility_Options"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#userID"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#preferredHand"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#motionSensitivity"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#comfortSettings"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#accessibilityLevel"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <SubClassOf>
+        <Class IRI="#Device_Synchronization"/>
+        <Class IRI="#SystemCondition"/>
+    </SubClassOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#synchronizesWith"/>
+        <Class IRI="#Device_Synchronization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#synchronizesWith"/>
+        <Class IRI="#DeviceType"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#syncLatency"/>
+        <Class IRI="#Device_Synchronization"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#syncStatus"/>
+        <Class IRI="#Device_Synchronization"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#syncPriority"/>
+        <Class IRI="#Device_Synchronization"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#syncMode"/>
+        <Class IRI="#Device_Synchronization"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#syncLatency"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#syncStatus"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#syncPriority"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#syncMode"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
