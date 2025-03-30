@@ -106,8 +106,6 @@ Contributions are welcome! Please fork the repository, make changes, and submit 
 
 Mario Sandoval - mariosandovalac@gmail.com
 
-Project Link: [MDOF-Framework-Python](https://github.com/MSandovalPhD/MDOF-Framework-Python)
-
 All related research papers can be found on [Mario Sandoval Olivé's Academia.edu page](https://manchester.academia.edu/MarioSandovalOliv%C3%A9).
 
 ### Note
