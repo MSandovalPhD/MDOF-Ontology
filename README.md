@@ -96,16 +96,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for more details.
-
-## Contributing
-
-Contributions are welcome! Please fork the repository, make changes, and submit pull requests. For major changes, please open an issue first to discuss.
-
-## Contact
-
-Mario Sandoval - mariosandovalac@gmail.com
-
+See the [LICENSE](LICENSE) file for more details.
 All related research papers can be found on [Mario Sandoval Olivé's Academia.edu page](https://manchester.academia.edu/MarioSandovalOliv%C3%A9).
 
 ### Note
