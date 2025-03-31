@@ -97,9 +97,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## License
 
 See the [LICENSE](LICENSE) file for more details.
+
 All related research papers can be found on [Mario Sandoval Olivé's Academia.edu page](https://manchester.academia.edu/MarioSandovalOliv%C3%A9).
-
-### Note
-
-LISU is a research project of the University of Manchester. Any unauthorised use or claim of this work will be considered a violation of intellectual property rights.
 
