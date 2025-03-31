@@ -1,6 +1,6 @@
 # LISU Framework Ontology UI
 
-A modern, user-friendly interface for controlling and monitoring VR (Virtual Reality) input devices. The LISU Framework Ontology UI provides a robust platform for managing VR controllers, motion platforms, and haptic devices through an intuitive graphical interface.
+A modern, user-friendly interface for controlling and monitoring VR (Virtual Reality) input devices. The LISU (Layered Interaction System for User-Modes) Framework Ontology and UI provide a robust platform for managing VR controllers, motion platforms, and haptic devices through an intuitive graphical interface.
 
 ## Features
 
